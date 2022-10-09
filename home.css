@@ -1,0 +1,222 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.girl{
+    height:100%;
+    width:100%;
+}
+.flex{
+    display:flex; 
+    flex-direction: row;
+    padding-right:50px;padding-left:50px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.h1{
+    font-size:75px;
+    color:rgb(78, 78, 231);
+}
+.hi{
+height:70px;
+width:90px;
+}
+.layout{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.r{
+    height:100%;
+    width:80%;
+    align-items: center;
+    color:rgb(78, 78, 231);
+    font-size: 30px;
+}
+.about{
+    height:auto;
+    width:80%;
+    border-radius: 50px;
+}
+.skills{
+    height:auto;
+    width:60%;
+    border-radius: 180px;
+}
+.proj{
+    height:auto;
+    width:60%;
+    border-radius: 180px;
+}
+.a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding:98.30px;
+}
+.sub{
+    font-size: 30px;
+    color:rgb(78, 78, 231);
+    text-align: center;
+}
+.para{
+    font-size:20px;
+    color:rgb(78, 78, 231);
+    font-weight: bold;
+}
+.col{
+    display:flex;
+    flex-direction: row;
+     margin:10px;
+}
+.me{
+    height:80%;
+    width:40%;
+    padding-left: 30%;  
+}
+.col1{
+    display:flex;
+    flex-direction: row;
+}
+.img{
+    height:60px;
+    width:70px;
+    padding-left: 280px;
+}
+.card{
+    height:200px;
+    width:50%;
+    padding:10px;
+    border:0.5px outset rgb(219, 219, 247);
+    border-radius: 10px;
+    background-color: rgb(73, 73, 243);
+    margin:10px;
+   box-shadow: 10px 10px 5px rgb(194, 194, 236);
+}
+.h2{
+    text-align: center;
+    font-size: 20px;
+    color:white;
+}
+.txt{
+    font-size: 15px;
+    color:white;
+    margin:10px;
+}
+.col2{
+    display:flex;
+    flex-direction: row;
+}
+.footer{
+    display:flex;
+    flex-direction: row;
+    height:70px;
+    width:auto;
+    background-color: rgb(73, 73, 243);
+}
+.logo{
+    height:30px;
+    width:40px;
+    padding-left:200px;
+}
+.lg{
+    height:30px;
+    width:40px;
+    padding-left:250px;
+}
+
+@media screen and (max-width:600px){
+    .flex{
+        display:flex; 
+        flex-direction: column;
+        padding-right:50px;padding-left:50px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .girl{
+        height:100%;
+        width:100%;
+    }
+    .h1{
+        font-size:45px;
+        color:rgb(78, 78, 231);
+        text-align: center;
+    }
+    .hi{
+        height:50px;
+        width:50px;
+    }
+    .layout{
+        display:flex;
+        flex-direction: row;
+    }
+    .a{
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: bold;
+        padding:18.5px;
+    }
+    .about{
+        height:auto;
+        width:90%;
+        border-radius: 50px;
+    }
+    .skills{
+        height:auto;
+        width:80%;
+        border-radius: 180px;
+    }
+    .proj{
+        height:auto;
+        width:80%;
+        border-radius: 180px;
+    }
+    .col{
+        display:flex;
+        flex-direction: column;
+    }
+    .para{   
+        font-size:10px; 
+        color:rgb(78, 78, 231);
+        margin:8px;
+        text-align: center;
+    
+    }
+    .me{
+        height:60%;
+        width:40%;
+        padding-left:80px;
+    }
+    .col1{
+        display:flex;
+        flex-direction: row;
+        padding:20px;
+    }
+    .img{
+        height:60px;
+        width:70px;
+        padding-left: 10px;
+    }
+    .card{
+        height:150px;
+        width:95%;
+        border:0.5px outset rgb(219, 219, 247);
+        border-radius: 5px;
+        background-color: rgb(73, 73, 243);
+        margin:5px;
+       box-shadow: 10px 10px 5px rgb(194, 194, 236);
+    }
+    .col2{
+        display:flex;
+        flex-direction: column;
+    }
+    .h2{
+        text-align: center;
+        font-size: 10px;
+        color:white;
+    }
+    .txt{
+        font-size: 8px;
+        color:white;
+        margin:5px;
+    }
+}
